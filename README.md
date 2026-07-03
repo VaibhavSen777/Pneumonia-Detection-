@@ -1,10 +1,10 @@
-# 🫁 Pneumonia Detection AI
+# Pneumonia Detection AI
 
 A deep learning-based application for detecting pneumonia from chest X-ray images using DINOv2 vision transformer and custom CNN heads. This project includes both a trained model and a user-friendly Streamlit web interface for inference and demonstration.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [System Architecture](#system-architecture)
 - [Results](#results)
@@ -12,7 +12,7 @@ A deep learning-based application for detecting pneumonia from chest X-ray image
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an AI-powered pneumonia detection system that:
 - **Classifies** chest X-ray images as Normal or Pneumonia
@@ -25,7 +25,7 @@ This project implements an AI-powered pneumonia detection system that:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────┐
@@ -66,7 +66,7 @@ This project implements an AI-powered pneumonia detection system that:
 ---
 
 
-## 📊 Results
+## Results
 
 The trained model achieves:
 - **Accuracy:** [Check `outputs/results.json`]
@@ -81,7 +81,7 @@ See visualizations in `outputs/`:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Component | Technology |
 |-----------|-----------|
@@ -94,7 +94,7 @@ See visualizations in `outputs/`:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 **Core Requirements:**
 - `numpy>=1.21.0` - Numerical computing
@@ -111,19 +111,19 @@ See visualizations in `outputs/`:
 ---
 
 
-## 📝 License
+## License
 
 This project is created for educational purposes.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Created as an AI Project for my AIP project.
 
 ---
 
-## 🤝 Support
+## Support
 
 For questions or issues:
 1. Check the model path: `outputs/model_best.pth`
