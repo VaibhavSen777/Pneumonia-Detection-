@@ -16,7 +16,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
 
-from models.model_davit import Model
+from models.model import Model
 
 st.set_page_config(page_title="Pneumonia Detection AI", layout="wide")
 
